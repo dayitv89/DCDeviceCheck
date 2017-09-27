@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MarinoDeviceCheck
+//  AppleDeviceCheck
 //
 //  Created by Gaurav D. Sharma on 16/09/2017.
 //  Copyright © 2017 iOS Dev Group. All rights reserved.
@@ -43,3 +43,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+

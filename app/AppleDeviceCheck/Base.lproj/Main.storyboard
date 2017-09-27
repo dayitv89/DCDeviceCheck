@@ -92,12 +92,12 @@
                                     <constraint firstItem="NZQ-kE-mfj" firstAttribute="leading" secondItem="HnC-iB-v9p" secondAttribute="leading" constant="8" id="xEu-DX-1EJ"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVr-g2-7Aq">
-                                <rect key="frame" x="159" y="388" width="56" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJD-PQ-fqp">
+                                <rect key="frame" x="160" y="388" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Validate"/>
+                                <state key="normal" title="validate"/>
                                 <connections>
-                                    <action selector="validate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4h-HT-4cu"/>
+                                    <action selector="validate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zP1-uY-uwD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -121,7 +121,6 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="98.50074962518741"/>
         </scene>
     </scenes>
 </document>

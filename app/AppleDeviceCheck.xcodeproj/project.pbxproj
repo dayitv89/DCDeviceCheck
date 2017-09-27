@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1706FC821F6D6006009B9579 /* MarinoDeviceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarinoDeviceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1706FC821F6D6006009B9579 /* AppleDeviceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDeviceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1706FC851F6D6006009B9579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1706FC871F6D6006009B9579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1706FC8A1F6D6006009B9579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		1706FC791F6D6006009B9579 = {
 			isa = PBXGroup;
 			children = (
-				1706FC841F6D6006009B9579 /* MarinoDeviceCheck */,
+				1706FC841F6D6006009B9579 /* AppleDeviceCheck */,
 				1706FC831F6D6006009B9579 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		1706FC831F6D6006009B9579 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1706FC821F6D6006009B9579 /* MarinoDeviceCheck.app */,
+				1706FC821F6D6006009B9579 /* AppleDeviceCheck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1706FC841F6D6006009B9579 /* MarinoDeviceCheck */ = {
+		1706FC841F6D6006009B9579 /* AppleDeviceCheck */ = {
 			isa = PBXGroup;
 			children = (
 				1706FC851F6D6006009B9579 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				1706FC8E1F6D6006009B9579 /* LaunchScreen.storyboard */,
 				1706FC911F6D6006009B9579 /* Info.plist */,
 			);
-			path = MarinoDeviceCheck;
+			path = AppleDeviceCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1706FC811F6D6006009B9579 /* MarinoDeviceCheck */ = {
+		1706FC811F6D6006009B9579 /* AppleDeviceCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1706FC941F6D6006009B9579 /* Build configuration list for PBXNativeTarget "MarinoDeviceCheck" */;
+			buildConfigurationList = 1706FC941F6D6006009B9579 /* Build configuration list for PBXNativeTarget "AppleDeviceCheck" */;
 			buildPhases = (
 				1706FC7E1F6D6006009B9579 /* Sources */,
 				1706FC7F1F6D6006009B9579 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = MarinoDeviceCheck;
-			productName = MarinoDeviceCheck;
-			productReference = 1706FC821F6D6006009B9579 /* MarinoDeviceCheck.app */;
+			name = AppleDeviceCheck;
+			productName = AppleDeviceCheck;
+			productReference = 1706FC821F6D6006009B9579 /* AppleDeviceCheck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +92,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = iOS Dev Group;
+				ORGANIZATIONNAME = Marinosoftware;
 				TargetAttributes = {
 					1706FC811F6D6006009B9579 = {
 						CreatedOnToolsVersion = 9.0;
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1706FC7D1F6D6006009B9579 /* Build configuration list for PBXProject "MarinoDeviceCheck" */;
+			buildConfigurationList = 1706FC7D1F6D6006009B9579 /* Build configuration list for PBXProject "AppleDeviceCheck" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1706FC811F6D6006009B9579 /* MarinoDeviceCheck */,
+				1706FC811F6D6006009B9579 /* AppleDeviceCheck */,
 			);
 		};
 /* End PBXProject section */
@@ -276,9 +276,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B8RPRP876;
-				INFOPLIST_FILE = MarinoDeviceCheck/Info.plist;
+				INFOPLIST_FILE = AppleDeviceCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.moes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,9 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6B8RPRP876;
-				INFOPLIST_FILE = MarinoDeviceCheck/Info.plist;
+				INFOPLIST_FILE = AppleDeviceCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.moes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.punchh.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1706FC7D1F6D6006009B9579 /* Build configuration list for PBXProject "MarinoDeviceCheck" */ = {
+		1706FC7D1F6D6006009B9579 /* Build configuration list for PBXProject "AppleDeviceCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1706FC921F6D6006009B9579 /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1706FC941F6D6006009B9579 /* Build configuration list for PBXNativeTarget "MarinoDeviceCheck" */ = {
+		1706FC941F6D6006009B9579 /* Build configuration list for PBXNativeTarget "AppleDeviceCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1706FC951F6D6006009B9579 /* Debug */,

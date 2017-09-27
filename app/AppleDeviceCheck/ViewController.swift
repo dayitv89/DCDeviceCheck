@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  MarinoDeviceCheck
+//  AppleDeviceCheck
 //
 //  Created by Gaurav D. Sharma on 16/09/2017.
 //  Copyright © 2017 iOS Dev Group. All rights reserved.
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var lastUpdated: UILabel!
     
-    let host = "http://10.1.1.122:3000" // Change to your NodeJS server IP:port
+    let host = "http://192.168.1.146:3000" // Change to your NodeJS server IP:port
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -116,7 +116,9 @@ class ViewController: UIViewController {
                 let task = sesh.dataTask(with: req, completionHandler: { (data, response, error) in
                     if let data = data, let jsonString = String(data: data, encoding: .utf8) {
                         print(jsonString)
+                        
                         DispatchQueue.main.async {
+                            self.updateUI(with: data)
                         }
                     }
                     
